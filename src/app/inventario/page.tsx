@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import { TopProducts } from "@/components/Tables/top-products";
+import { Inventarios } from "@/components/inventario/inventarios"
 
 import { Metadata } from "next";
 
@@ -13,7 +13,7 @@ const InventarioPage = () => {
       <Breadcrumb pageName="Inventario" />
 
       <div className="space-y-10">
-        <TopProducts />
+        <Inventarios />
       </div>
     </>
   );

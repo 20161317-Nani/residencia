@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import { TopProducts } from "@/components/Tables/top-products";
+import { TopProducts } from "@/components/Productos/top-products";
 
 import { Metadata } from "next";
 

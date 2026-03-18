@@ -71,3 +71,52 @@ export function Users(props: SVGPropsType) {
     </svg>
   );
 }
+
+export function OutOfStock(props: SVGPropsType) {
+  return (
+    <svg width={58} height={58} viewBox="0 0 58 58" fill="none" {...props}>
+      <circle cx={29} cy={29} r={29} fill="#FF4D4F" />
+      
+      {/* Caja */}
+      <path
+        d="M20 22l9-4 9 4-9 4-9-4zM20 22v10l9 5 9-5V22"
+        stroke="#fff"
+        strokeWidth={2}
+        fill="none"
+      />
+
+      {/* Línea de cancelado */}
+      <path
+        d="M18 40L40 18"
+        stroke="#fff"
+        strokeWidth={3}
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function PendingOrders(props: SVGPropsType) {
+  return (
+    <svg width={58} height={58} viewBox="0 0 58 58" fill="none" {...props}>
+      <circle cx={29} cy={29} r={29} fill="#FFC107" />
+      
+      {/* Caja */}
+      <path
+        d="M20 24l9-4 9 4-9 4-9-4zM20 24v8l9 5 9-5v-8"
+        stroke="#fff"
+        strokeWidth={2}
+        fill="none"
+      />
+
+      {/* Reloj */}
+      <circle cx={29} cy={29} r={5} stroke="#fff" strokeWidth={2} />
+      <path
+        d="M29 26v3l2 2"
+        stroke="#fff"
+        strokeWidth={2}
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}

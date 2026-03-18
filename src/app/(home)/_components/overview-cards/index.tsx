@@ -23,7 +23,7 @@ export async function OverviewCardsGroup() {
           ...profit,
           value: "$" + compactFormat(profit.value),
         }}
-        Icon={icons.Profit}
+        Icon={icons.OutOfStock}
       />
 
       <OverviewCard
@@ -41,7 +41,7 @@ export async function OverviewCardsGroup() {
           ...users,
           value: compactFormat(users.value),
         }}
-        Icon={icons.Users}
+        Icon={icons.PendingOrders}
       />
     </div>
   );

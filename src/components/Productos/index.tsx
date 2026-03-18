@@ -10,7 +10,6 @@ import { standardFormat } from "@/lib/format-number";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
-// 🔥 Cambia esto luego por tu fetch real
 async function getProductos() {
   return [
     {

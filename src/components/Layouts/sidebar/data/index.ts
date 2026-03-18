@@ -15,6 +15,12 @@ export const NAV_DATA = [
         ],
       },
       {
+        title: "Profile",
+        url: "/profile",
+        icon: Icons.User,
+        items: [],
+      },
+      {
         title: "Productos",
         url: "/productos",
         icon: Icons.Alphabet,

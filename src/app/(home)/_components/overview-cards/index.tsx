@@ -14,7 +14,7 @@ export async function OverviewCardsGroup() {
           ...views,
           value: compactFormat(views.value),
         }}
-        Icon={icons.Views}
+        Icon={icons.Product}
       />
 
       <OverviewCard
@@ -32,7 +32,7 @@ export async function OverviewCardsGroup() {
           ...products,
           value: compactFormat(products.value),
         }}
-        Icon={icons.Product}
+        Icon={icons.Profit}
       />
 
       <OverviewCard
